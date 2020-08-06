@@ -43,3 +43,16 @@
 #searchIcon{
     position:relative;
 }
+
+#parent div{
+    background-color: rgb(188, 79, 252);
+    border: 1px solid black;
+}
+
+#parent{
+    display: flex;
+}
+
+#parent :nth-child(2){
+    margin: 0 auto;
+}
